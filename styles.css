@@ -1,0 +1,131 @@
+/*Marina | 3ºC | Data: */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Quicksand:wght@400;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background-color: #daf7f7;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #023e8a;
+}
+
+p {
+  font-size: 1.05rem;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('img/WhatsApp\ Image\ 2025-08-13\ at\ 11.40.12.jpeg') center/cover no-repeat;
+  height: 90vh;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.hero .btn {
+  font-weight: bold;
+  background-color: #fff;
+  color: #023e8a;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.hero .btn:hover {
+  background-color: #023e8a;
+  color: #fff;
+}
+
+/* Seções */
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+section h2 {
+  border-left: 5px solid #023e8a;
+  padding-left: 12px;
+  margin-bottom: 30px;
+}
+
+/* Cards do Elenco */
+.card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 280px;
+  object-fit: cover;
+}
+
+/* Galeria */
+#galeria img,
+#galeria-abba img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+#galeria img:hover,
+#galeria-abba img:hover {
+  transform: scale(1.05);
+}
+
+/* Menu de acessibilidade */
+#acessibilidade {
+  background-color:#daf7f7;;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#acessibilidade button {
+  background-color: #023e8a;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#acessibilidade button:hover {
+  background-color: #0077b6;
+}
+
+/* Rodapé */
+footer {
+  background-color: #023e8a;
+  color: white;
+  padding: 2rem 0;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+}
+
+/* Alto contraste */
+.alto-contraste {
+  background-color: black !important;
+  color: yellow !important;
+}
+
+.alto-contraste img {
+  filter: grayscale(100%) contrast(200%);
+}

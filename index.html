@@ -1,0 +1,185 @@
+<!--Marina / 3ºC / Data:-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Mamma Mia!- O Filme</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center" >
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+       
+    </header>
+
+
+
+  <!-- HERO -->
+  <header class="hero d-flex align-items-center text-white text-center" role="banner">
+    <div class="container">
+      <h1 class="display-4" tabindex="9">Mamma Mia! (2008)</h1>
+      <p class="lead" tabindex="10">Uma comédia musical embalada pelos maiores sucessos do ABBA</p>
+      <a href="#sinopse" class="btn btn-light mt-3" tabindex="11">Conheça o Filme</a>
+    </div>
+  </header>
+
+  <!-- SINOPSE -->
+  <section id="sinopse" class="container py-5" aria-labelledby="titulo-sinopse">
+    <h2 id="titulo-sinopse" tabindex="12">Sinopse</h2>
+    <p tabindex="13">
+      Sophie, prestes a se casar, vive com sua mãe Donna em uma ilha grega. Sem saber quem é seu verdadeiro pai, ela convida três homens do passado de sua mãe — Sam, Harry e Bill — com a esperança de descobrir a verdade. O reencontro inesperado traz à tona memórias, emoções e muita música ao som de ABBA.
+    </p>
+  </section>
+
+  <!-- ELENCO -->
+  <section id="elenco" class="container py-5" aria-labelledby="titulo-elenco">
+    <h2 id="titulo-elenco" tabindex="14">Elenco Principal</h2>
+    <div class="row g-4 mt-4">
+      <div class="col-md-4" tabindex="15">
+        <div class="card h-100">
+          <img src="img/meryl-streep.jpg" class="card-img-top" alt="Meryl Streep como Donna">
+          <div class="card-body">
+            <h5 class="card-title">Meryl Streep</h5>
+            <p class="card-text">Donna Sheridan, mãe de Sophie, independente e cheia de vida.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" tabindex="16">
+        <div class="card h-100">
+          <img src="img/amanda-seyfried-capa-jpg.webp" class="card-img-top" alt="Amanda Seyfried como Sophie">
+          <div class="card-body">
+            <h5 class="card-title">Amanda Seyfried</h5>
+            <p class="card-text">Sophie Sheridan, uma jovem sonhadora à procura de seu pai.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" tabindex="17">
+        <div class="card h-100">
+          <img src="img/pierce-brosnan-em-mamma-mia.webp" class="card-img-top" alt="Pierce Brosnan como Sam">
+          <div class="card-body">
+            <h5 class="card-title">Pierce Brosnan</h5>
+            <p class="card-text">Sam Carmichael, um dos possíveis pais de Sophie.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria" class="container py-5" aria-labelledby="titulo-galeria">
+    <h2 id="titulo-galeria" tabindex="18">Galeria do Filme</h2>
+    <div class="row g-3 mt-4">
+      <div class="col-6 col-md-4" tabindex="19">
+        <img src="img/filmes-5287-cartazes-mammamia_10.jpg" class="img-fluid rounded" alt="Pôster oficial do filme Mamma Mia!">
+      </div>
+      <div class="col-6 col-md-4" tabindex="20">
+        <img src="img/6da20f181a44414aaa812b0bb6d4f044.webp" class="img-fluid rounded" alt="Praia Kastani, onde foi filmado Mamma Mia!" width="350" height="350">
+      </div>
+      <div class="col-6 col-md-4" tabindex="21">
+        <img src="img/mamma_mia_sur_netflix_2816.webp" class="img-fluid rounded" alt="Elenco reunido nas gravações do filme" width="290" height="350">
+      </div>
+    </div>
+  </section>
+
+   <!-- SOBRE O ABBA -->
+  <section id="abba" class="container py-5" aria-labelledby="titulo-abba">
+    <h2 id="titulo-abba" tabindex="22">Sobre o ABBA</h2>
+    <p tabindex="23">
+      O ABBA é uma banda sueca de música pop formada em 1972 por Agnetha, Björn, Benny e Anni-Frid. Suas músicas conquistaram o mundo nas décadas de 70 e 80 com sucessos como "Dancing Queen", "Mamma Mia", "Waterloo" e "The Winner Takes It All".
+    </p>
+    <p tabindex="24">
+      O filme Mamma Mia! foi inspirado nas músicas do grupo. A trama foi construída em torno das letras e temas das canções do ABBA, criando uma história divertida, romântica e emocionante. O sucesso da banda é parte essencial da atmosfera do filme.
+    </p>
+  </section>
+
+  <!-- GALERIA DO ABBA -->
+<section id="galeria-abba" class="container py-5" aria-labelledby="titulo-galeria-abba">
+  <h2 id="titulo-galeria-abba" tabindex="26"> Banda ABBA </h2>
+  <p tabindex="27">Veja momentos marcantes da trajetória do ABBA</p>
+  <div class="row g-3 mt-4">
+    <div class="col-6 col-md-4" tabindex="28">
+      <img src="img/WhatsApp Image 2025-08-13 at 11.30.16.jpeg" 
+           class="img-fluid rounded" 
+           alt="ABBA em 1974 após vencer o Eurovision com 'Waterloo'">
+    </div>
+    <div class="col-6 col-md-4" tabindex="29">
+      <img src="img/WhatsApp Image 2025-08-13 at 11.33.58.jpeg" 
+           class="img-fluid rounded" 
+           alt="ABBA em uma sessão de fotos de 1979 com roupas coloridas e alegres">
+    </div>
+    <div class="col-6 col-md-4" tabindex="30">
+      <img src="img/WhatsApp Image 2025-08-13 at 11.33.58 (1).jpeg" 
+           class="img-fluid rounded" 
+           alt="Foto promocional do ABBA com os quatro integrantes lado a lado">
+    </div>
+  </div>
+</section>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-primary text-white text-center py-4 mt-5" role="contentinfo">
+    <p tabindex="25">© 2025 - Projeto educacional baseado no filme Mamma Mia! (2008)</p>
+  </footer>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="scripit.js"></script>
+  
+
+</body>
+</html>
